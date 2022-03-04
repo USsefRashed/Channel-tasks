@@ -89,6 +89,6 @@ double Median(double arr[],int size)
    {
        return (arr[(size - 1) / 2] + arr[size / 2]) / 2.0;
    }
-   return arr[size/2];
+   return arr[(size/2)+1];
 
 }
